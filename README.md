@@ -10,4 +10,4 @@ Link:
 https://kar3n33.github.io/WeatherApp/
 
 Screenshot of Homepage:
-<img src = >
+<img src = https://github.com/Kar3n33/WeatherApp/blob/main/Assets/search.png>
