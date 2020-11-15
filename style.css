@@ -1,23 +1,69 @@
-header {
-  background: #333;
-  }
-h1{
-  padding: 20px 0;
-  margin: 0;
-  margin-bottom: 20px;
-  font-size: 32px;
-  color: #eee;
-  text-align: center;
-  } 
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+.navbar-brand {
+    font-size: 36px;
+}
+
+#search-city{
+    width:80%;
+}
+.search-header{
+    color: rebeccapurple;
 
 }
-.col-12 {
-  flex: 0 0 100%;
-  max-width: 100%;
+
+#search-button-icon{
+    width:15px;
+    display:inline-block;
 }
- 
+
+#current-weather {
+    padding-left: 15px;
+}
+
+#clear-storage{
+    color:grey;
+    text-decoration: none;
+    font-size:1rem;
+    margin: auto;
+}
+
+.weather-card{
+    width: 9rem;
+    background-color: #2b86d6;
+    color: white;
+    text-align: center;
+}
+
+.uv-favorable{
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+}
+
+.uv-moderate{
+    background-color: orange;
+    border-radius: 5px;
+    color: white;
+}
+
+.uv-severe{
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+}
+
+/* Media queries */
+@media only screen and (max-width: 992px) {
+    #search-city{
+        width:100%;
+    }
+    #search-button{
+        width:100%;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+
+    #fiveDayForecastUl{
+        justify-content: center;
+    }
+}
